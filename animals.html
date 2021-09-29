@@ -13,6 +13,24 @@
   <title>WEB APPLICATIONS ASSIGNMENT 05</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link active" href="Plane.html">Plane</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="Train.html">Train</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
 <h1>Animals by Nikhil Krishnan Venkatesh</h1>
 <div class="container">
     <div class="row">
@@ -34,6 +52,143 @@
     
     </div>
     <p> I tried to reduce the window size the animals row broke first because the bootstrap grid system makes the window responsive</p>
+    <div class="container"  >
+      <img src="tiger.jpg" class="img-fluid" alt="tiger">
+      <img src="panda.jpg" class="img-fluid" alt="panda"  >
+      <img src="lion.jpg" class="img-fluid" alt="lion" >
+  </div>
+  <br>
+  <div class="container"  >
+      <img src="tiger.jpg"" class="img-thumbnail" alt="tiger"   >
+      <img src="panda.jpg" class="img-thumbnail" alt="panda"  >
+      <img src="lion.jpg" class="img-thumbnail" alt="lion" >
+  </div>
+  <br>
+  <table class="table table-striped table-hover table-light" style="color:violet; width: 60%; text-align:center; margin-left: auto; margin-right: auto;" >
+      <caption style="font-size: 20px; color:violet;"> Table contains my last name letters with the corresponding animals,cities and car models that starting letterof my name.</caption>
+      <thread>
+        <thead>
+          <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">Animal</th>
+            <th scope="col">City</th>
+            <th scope="col">Car</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">K</td>
+            <td scope="row">kangaroo</td>
+            <td scope="row">Kasol</td>
+            <td scope="row">KIA</td>
+          </tr>
+          <tr>
+            <td scope="row">R</td>
+            <td scope="row">RABBIT</td>
+            <td scope="row">Rome</td>
+            <td scope="row">ROLLS-ROYCE</td>
+          </tr>
+          <tr>
+            <td scope="row">I</td>
+            <td scope="row">ILLINOS</td>
+            <td scope="row">Impala</td>
+            <td scope="row">Imperial</td>
+          </tr>
+          <tr>
+            <td scope="row">S</td>
+            <td scope="row">Salamander</td>
+            <td scope="row">Singapore</td>
+            <td scope="row">SuzukiEconomy</td>
+          </tr>
+          <tr>
+            <td scope="row">H</td>
+            <td scope="row">Hamster</td>
+            <td scope="row">HYDERABAD</td>
+            <td scope="row">Honolulu</td>
+          </tr>
+          <tr>
+            <td scope="row">N</td>
+            <td scope="row">Nightingale</td>
+            <td scope="row">New Delhi</td>
+            <td scope="row">Nissan</td>
+          </tr>
+        </tbody>
+      </thread>
+    </table>
+    <div class="btn-toolbar" role="toolbar" aria-label="Button Groups with toolbar">
+      <div class="btn-group mr-4" role="group" aria-label="First Button Group">
+          <button type="button" class="btn btn-success">K</button>
+          <button type="button" class="btn btn-success">R</button>
+          <button type="button" class="btn btn-success">I</button>
+      </div>
+      <div class="btn-group mr-4" role="group" aria-label="Second Button Group">
+          <button type="button" class="btn btn-warning">S</button>
+          <button type="button" class="btn btn-warning">H</button>
+      </div>
+      <div class="btn-group mr-4" role="group" aria-label="Third Button Group">
+          <button type="button" class="btn btn-danger">N</button>
+      </div>
+  </div>
+  <br>
+  
+  <div class="dropdown">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">
+        Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        <a class="dropdown-item" href="./Train.html">Train</a>
+        <a class="dropdown-item" href="./Plane.html">Plane</a>
+    </div>
+  </div>
+  <br>
+  
+  <form>
+      <div class="form-group">
+        <label for="EmailLogin">Email address</label>
+        <input type="email" class="form-control" id="Email" aria-describedby="emailaddress" placeholder="Enter your email address">
+        <small id="emailaddress" class="form-text text-muted">We wont share your email with anyone.</small>
+      </div>
+      <div class="form-group">
+        <label for="Password">Animal</label>
+        <input type="text" class="form-control" id="Password" placeholder="Enter your animal">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="checkin">
+        <label class="form-check-label" for="Checkin">Sign up for newsletter?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="tiger.jpg" alt="tiger">
+        <div class="card-body">
+          <h5 class="card-title">tiger</h5>
+          <p class="card-text">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. 
+            It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates 
+            such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its 
+            requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their 
+            mother's home range to establish their own..</p>
+               <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Tiger">Read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="lion.jpg" alt="lion">
+        <div class="card-body">
+          <h5 class="card-title">lion</h5>
+          <p class="card-text">The lion (Panthera leo) is a large felid of the genus Panthera native to Africa and India. It has a muscular, deep-chested body, short, rounded head, round ears, and a hairy tuft at the end of its tail. It is sexually dimorphic; adult male lions are larger than females and have a prominent mane. It is a social species, forming groups called prides. A lion's pride consists of a few adult males, related females, and cubs. Groups of female lions usually hunt together, preying mostly on large ungulates. The lion is an apex and keystone predator; although some lions scavenge when opportunities occur and have been known to hunt humans, the species typically does not.</p>
+               <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Lion">Read more</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="panda.jpg" alt="panda">
+        <div class="card-body">
+          <h5 class="card-title">panda</h5>
+          <p class="card-text">The giant panda (Ailuropoda melanoleuca; Chinese: 大熊猫; pinyin: dàxióngmāo),[5] also known as the panda bear (or simply the panda), is a bear[6] native to South Central China.[1] It is characterised by its bold black-and-white coat and rotund body.The name "giant panda" is sometimes used to distinguish it from the red panda, a neighboring musteloid. Though it belongs to the order Carnivora, the giant panda is a folivore, with bamboo shoots and leaves making up more than 99% of its diet.[7] Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents, or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food [2]</p>
+               <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Giant_panda">Read more</a>
+        </div>
+      </div>
+    </div>
 
   </body>
 
